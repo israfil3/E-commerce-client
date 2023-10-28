@@ -18,7 +18,7 @@ import "./Slider.css"
 
 const Slider = () => {
     return (
-        <div className='w-[60%]  mx-auto my-10 rounded'>
+        <div className='lg:w-[60%]  mx-auto my-10 rounded sil'>
             <Swiper spaceBetween={30} centeredSlides={true} autoplay={{  delay: 3500,disableOnInteraction: false,}} pagination={{ clickable: true, }} navigation={true}modules={[Autoplay, Pagination, Navigation]} className="mySwiper rounded">
               <SwiperSlide className='bt'>
                     <img src={Mobile} alt="" />
