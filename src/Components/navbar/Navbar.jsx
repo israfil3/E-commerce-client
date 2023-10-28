@@ -17,7 +17,7 @@ const Navbar = () => {
                     </a>
            </div>
                
-               <div className="">
+               <div className="menu-item">
                 <ul id='item-link' className={menuOpen ? 'active' : ''}>
                     <li>
                        <a href="">Home </a>
@@ -36,7 +36,7 @@ const Navbar = () => {
                     </li>
                 </ul>  
                </div>
-            <div onClick={toggleMenu}  className="menu-bar flex justify-center items-center">
+            <div onClick={toggleMenu}  className="menu-bar flex justify-center items-center lg:hidden md:hidden">
                 {menuOpen ? <FaTimes /> : <FaBars />}
             </div>
         </nav>
