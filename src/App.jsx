@@ -1,11 +1,11 @@
-import Slider from "./Components/HomePage/Slider/Slider";
+import { Outlet } from "react-router-dom";
 import Navbar from "./Components/navbar/Navbar";
 
 const App = () => {
   return (
     <div>
-      <Navbar></Navbar>
-      <Slider></Slider>
+       <Navbar></Navbar>
+       <Outlet></Outlet>
     </div>
   );
 };

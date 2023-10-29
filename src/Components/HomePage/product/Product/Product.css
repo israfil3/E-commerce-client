@@ -1,0 +1,12 @@
+.product-item {
+    text-align: center; 
+    border: 1px solid red;
+    margin: 0px;
+    height: 160px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.product-item img {
+    width: 100px;
+}
